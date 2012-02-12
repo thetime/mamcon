@@ -1,0 +1,137 @@
+/* Foundation v2.1.4 http://foundation.zurb.com */
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+
+	/* Colors */
+	h1, h2, h3, h4, h5, h6 { color: #646464;}
+	
+	a { color: #701a32;}
+	a:hover { color: #461020;}
+	a:focus { color: #C32D57;}
+	
+	.nice.mammut.button		{ border-color: #461020;  }
+	.mammut.button				{ background-color: #701a32; }
+	.mammut.button:hover, .mammut.button:focus 		{ background-color: #461020; }
+	.button.radius {
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		border-radius: 8px; 
+	}
+
+	ul.pagination li.current a, ul.pagination li:hover a, ul.pagination li a:focus { border-bottom-color: #701a32; }
+
+	.nav-bar > li.has-flyout > a:after { border-top-color: #701a32; }
+	.nav-bar > li:hover > a { color: #461020; }
+	.nav-bar > li:hover > a:after { border-top-color: #461020; }
+
+
+	/* Logo */
+	#logo { margin: 30px 0 0 0; }
+	@media only screen and (max-width: 767px) { #logo {margin: 0; }
+	}
+
+	@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px) {
+	#logo { margin: 10px 0 0 0; }
+	}
+
+
+	/* Header */
+	#header { margin-bottom: 30px; }
+	#slider { margin-bottom: 30px; }
+
+	/*Navigation*/
+	#nav-main{ margin: 63px 0 0 0; }
+
+	@media only screen and (max-width: 767px) {
+	#nav-main { margin: 0; }
+	}
+	.nav-bar {
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		border-radius: 8px; 
+	}
+	.flyout {
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		border-radius: 8px; 
+	}
+
+
+	/* Panel */
+	div.panel {
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		border-radius: 8px; 
+	}
+
+
+	/* Footer */
+	ul.footer { display: block; height: 24px;}
+	ul.footer li { float: left; display: inline; height: 24px; color: #999; font-size: 15px; margin-left: 5px;}
+	ul.footer li:after { content: " | "; }
+	ul.footer li:last-child:after { content: ""; }
+	ul.footer li:first-child:after { content: ""; }
+	ul.footer li a {	color: #141414; }
+
+
+	/* Blockquote */
+	blockquote.bigquote:before, blockquote:after, q:before, q:after { content: none; }
+	blockquote.bigquote:before, blockquote:after, q:before, q:after { content: none; }
+	blockquote.bigquote {
+		background: url("/mam/images/quote.png") no-repeat scroll 0 0 transparent;
+		font-style: italic;
+		margin: 0 0 18px;
+		padding: 9px 20px 0 19px;
+		border-left: none;
+	}
+	blockquote.bigquote, blockquote.bigquote p {
+		color: #646464;
+		font-size: 16px;
+		line-height: 24px;
+		text-shadow: 0 1px 1px #FFFFFF;
+	}
+	blockquote.bigquote, q { quotes: none; }
+
+
+	/* Orbit */
+	.orbit > img, .orbit > div, .orbit > div > img, .orbit > div > iframe {
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		border-radius: 8px; 
+	}
+	.orbit-bullets {
+		left:0%;
+		right:0;
+		margin-left:0;
+		
+	}
+
+
+
+
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+

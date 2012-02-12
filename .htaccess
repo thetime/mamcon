@@ -1,0 +1,7 @@
+#AuthUserFile /www/htdocs/w00ec9d5//development//.htpasswd
+#AuthGroupFile /dev/null
+#AuthName ByPassword
+#AuthType Basic
+#<Limit GET POST>
+#require user mammut
+#</Limit>
